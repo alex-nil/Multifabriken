@@ -54,6 +54,7 @@ namespace Multifabriken
                     Console.WriteLine("Mata in bilmärke: ");
                     bil.märke = Console.ReadLine();
 
+                    //Lägger till i lista
                     infoBil.Add(bil);
                     foreach (var item in infoBil)
                     {
@@ -72,6 +73,8 @@ namespace Multifabriken
 
                     Console.WriteLine("Antal: ");
                     godis.antal = Console.ReadLine();
+
+                    //Lägger till i lista
                     infoGodis.Add(godis);
 
                     foreach (var item in infoGodis)
@@ -91,6 +94,8 @@ namespace Multifabriken
 
                     Console.WriteLine("Vilken längd: ");
                     rör.längd = Console.ReadLine();
+
+                    //Lägger till i lista
                     infoRör.Add(rör);
 
                     foreach (var item in infoRör)
@@ -110,6 +115,8 @@ namespace Multifabriken
 
                     Console.WriteLine("Litermängd: ");
                     havremjölk.litermängd = Console.ReadLine();
+
+                    //Lägger till i lista
                     infoHavre.Add(havremjölk);
 
                     foreach (var item in infoHavre)
